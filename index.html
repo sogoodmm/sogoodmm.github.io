@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hanfeng Wang | Academic Homepage</title>
+<meta name="description" content="Hanfeng Wang, PhD student at National University of Defense Technology. Research interests in Continual Learning and Agent Memory.">
+<meta name="author" content="Hanfeng Wang">
+<meta name="theme-color" content="#ffffff">
+<style>
+:root{--blue:#234fc0;--ink:#202c40;--muted:#657085;--line:#e4e9f1;--wash:#f4f7fd;--serif:Georgia,'Times New Roman',serif;--sans:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:#fff;color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.75}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:4px}button,a,summary{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #92adee;outline-offset:5px}button{font:inherit}button,summary{cursor:pointer}[hidden]{display:none!important}.skip{position:fixed;top:-70px;left:20px;padding:8px 16px;background:#fff;z-index:30}.skip:focus{top:10px}
+.topbar{position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line);background:rgba(255,255,255,.97)}.nav-inner{max-width:1160px;margin:auto;padding:0 40px;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.wordmark{display:flex;align-items:center;gap:12px;color:var(--ink);font-weight:650;letter-spacing:-.02em;white-space:nowrap}.mark{display:grid;place-items:center;background:var(--blue);color:#fff;border-radius:7px;font-size:12px;width:30px;height:30px;letter-spacing:0}.nav-links{display:flex;gap:28px;align-items:center}.nav-links a{font-size:13px;color:var(--muted);padding:23px 0 20px;border-bottom:2px solid transparent}.nav-links a[aria-current="location"]{color:var(--blue);border-color:var(--blue)}
+.layout{max-width:1160px;margin:auto;display:grid;grid-template-columns:242px minmax(0,1fr);gap:70px;padding:60px 40px 70px}.profile{position:sticky;top:125px;align-self:start;min-width:0}.avatar{width:132px;height:132px;display:grid;place-items:center;border-radius:50%;background:#eef3ff;border:1px solid #dbe5ff;color:var(--blue);font-family:var(--serif);font-size:48px;letter-spacing:-4px;margin:0 0 26px;overflow:hidden}.avatar img{height:100%;width:100%;object-fit:cover}.profile h1{font-size:27px;line-height:1.25;letter-spacing:-.04em;margin:0 0 10px}.profile-role{font-size:14px;color:var(--blue);font-weight:550;margin:0 0 5px}.affiliation{font-size:14px;line-height:1.65;color:var(--muted);margin:0}.profile-links{border-top:1px solid var(--line);margin:24px 0 0;padding-top:19px;display:grid;gap:12px}.profile-links a{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted);overflow-wrap:anywhere}.icon{width:17px;height:17px;flex-shrink:0;stroke:currentColor;stroke-width:1.6;fill:none}.profile-topics{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8993a4;margin:26px 0 0}.profile-topics span{display:block}
+main{min-width:0}.eyebrow{font-size:10px;font-weight:700;letter-spacing:.2em;color:var(--blue);margin:0 0 9px;text-transform:uppercase}.intro-title{font-family:var(--serif);font-weight:normal;letter-spacing:-.035em;font-size:42px;line-height:1.2;margin:0 0 26px}p{margin:0 0 17px}.intro-text{font-size:16px;line-height:1.9}.intro-text strong{font-weight:600}section{margin-bottom:45px}.section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);margin-bottom:22px;padding-bottom:11px}h2{font-family:var(--serif);font-size:25px;line-height:1.3;letter-spacing:-.02em;font-weight:normal;margin:0}.section-number{font-family:var(--sans);font-size:10px;color:#929cad;letter-spacing:.1em}.interests{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.interest{border:1px solid #dce6fb;border-radius:5px;background:#f4f7fe;color:var(--blue);padding:5px 12px;font-size:12px;font-weight:550}.interest::before{content:'';display:inline-block;width:5px;height:5px;background:var(--blue);border-radius:50%;margin-right:8px;vertical-align:2px}
+.education{list-style:none;padding:0;margin:0}.education li{position:relative;border-left:1px solid #dbe3f2;margin-left:5px;padding:0 0 25px 24px}.education li:last-child{padding-bottom:0}.education li::before{content:'';position:absolute;left:-5px;top:8px;width:9px;height:9px;background:#fff;border:2px solid #92aad9;border-radius:50%}.education li:first-child::before{background:var(--blue);border-color:var(--blue)}.edu-meta{display:flex;justify-content:space-between;gap:16px;align-items:baseline}.education h3{font-size:15px;font-weight:600;line-height:1.65;margin:0 0 4px}.date{font-size:11px;color:var(--muted);white-space:nowrap}.education p{font-size:13px;margin:0;color:var(--muted)}.expected{font-size:11px}.publication-count{font-family:var(--sans);font-size:11px;color:var(--muted);background:var(--wash);padding:3px 9px;border-radius:20px;margin-left:9px;vertical-align:3px}.publication-toolbar{display:flex;gap:8px;margin-bottom:24px}.filter{border:1px solid var(--line);padding:4px 12px;border-radius:4px;background:#fff;color:var(--muted);font-size:12px}.filter[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}.empty{border:1px dashed #d3def0;border-radius:9px;background:linear-gradient(120deg,#f7f9fe,#fff);padding:26px 28px;display:flex;gap:18px;align-items:center}.empty .icon{width:28px;height:28px;color:#7f96c0}.empty h3{font-size:14px;font-weight:550;margin:0 0 2px}.empty p{font-size:13px;color:var(--muted);margin:0}.year-heading{font-size:12px;font-weight:650;letter-spacing:.08em;color:var(--muted);margin:24px 0 13px}.paper{padding:0 0 23px;margin-bottom:23px;border-bottom:1px solid var(--line)}.paper-grid{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px}.paper-grid.no-image{grid-template-columns:1fr}.paper-image{width:150px;max-height:120px;object-fit:contain;border:1px solid var(--line);border-radius:6px;background:var(--wash)}.paper h3{font-size:16px;line-height:1.5;margin:0 0 6px;font-weight:600}.paper h3 a{color:var(--ink)}.authors{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:7px}.authors strong{font-weight:650;color:var(--ink)}.venue{font-size:11px;display:inline-block;color:var(--blue);background:#eef3ff;padding:2px 8px;border-radius:4px;margin-bottom:9px}.paper-links{display:flex;gap:14px;flex-wrap:wrap}.paper-links a{font-size:12px;font-weight:600}.bibtex{margin-top:11px;font-size:12px;color:var(--blue)}.bibtex pre{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--wash);border:1px solid var(--line);padding:14px;color:var(--ink);border-radius:5px;font-size:11px}.contact-panel{background:var(--wash);border:1px solid var(--line);border-radius:8px;padding:23px 26px}.contact-panel p{font-size:14px;color:var(--muted);margin:0 0 8px}.contact-panel a{font-size:15px;overflow-wrap:anywhere}.contact-panel .institution{margin-top:10px;margin-bottom:0;font-size:12px}footer{border-top:1px solid var(--line);max-width:1080px;margin:0 auto;padding:22px 0 30px;display:flex;justify-content:space-between;gap:15px;color:#8791a1;font-size:11px}footer a{color:var(--muted)}
+@media(min-width:761px) and (max-width:1040px){.layout{gap:40px;grid-template-columns:210px minmax(0,1fr)}.edu-meta{display:block}.date{display:block;margin-bottom:4px}}
+@media(max-width:760px){html{scroll-padding-top:116px}.nav-inner{padding:0 22px;gap:5px;flex-wrap:wrap;min-height:82px;padding-top:12px}.wordmark{font-size:14px}.mark{height:25px;width:25px;font-size:10px}.nav-links{gap:19px;flex:1 0 100%}.nav-links a{padding:7px 0 10px;font-size:12px}.layout{display:block;padding:32px 24px 30px}.profile{position:static;display:grid;grid-template-columns:76px minmax(0,1fr);gap:0 18px;padding-bottom:27px;margin-bottom:32px;border-bottom:1px solid var(--line)}.avatar{grid-row:1/4;width:76px;height:76px;font-size:30px;letter-spacing:-2px;margin:0}.profile h1{font-size:24px;margin:0 0 5px}.profile-role{font-size:12px}.affiliation{font-size:12px}.profile-links{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:11px 20px;border:0;padding:0;margin-top:18px}.profile-links a{font-size:12px}.profile-topics{display:none}.intro-title{font-size:35px;margin-bottom:20px}.intro-text{font-size:15px}.edu-meta{display:block}.date{display:block;margin:0 0 4px}.section-heading{margin-bottom:20px}h2{font-size:24px}section{margin-bottom:35px}.empty{padding:21px 18px;gap:14px}.paper-grid{grid-template-columns:1fr;gap:14px}.paper-image{width:100%;max-height:200px}.contact-panel{padding:20px}footer{margin:0 24px;flex-wrap:wrap}.contact-panel a{font-size:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.topbar,.skip,.publication-toolbar{display:none}.layout{display:block;padding:0}.profile{position:static;margin-bottom:30px}.profile .avatar,.profile-topics{display:none}section,.paper{break-inside:avoid}body{font-size:12px}.bibtex:not([open]){display:none}footer{margin-top:20px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><div class="nav-inner"><a class="wordmark" href="#about"><span class="mark" aria-hidden="true">HW</span>Hanfeng Wang</a><nav class="nav-links" aria-label="Main navigation"><a href="#about" aria-current="location">About</a><a href="#education">Education</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav></div></header>
+<div class="layout">
+<aside class="profile" aria-label="Profile">
+<div class="avatar" id="avatar" aria-hidden="true">HW</div>
+<h1>Hanfeng Wang</h1><p class="profile-role">PhD Student</p><p class="affiliation">National University of<br>Defense Technology</p>
+<div class="profile-links">
+<a href="mailto:wanghanfeng26@nudt.edu.cn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>wanghanfeng26@nudt.edu.cn</a>
+<a href="https://github.com/sogoodmm"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 20v-3c-4 1-4-2-5-2m13 5v-4c0-1-.5-2-1-2 3-.5 5-2 5-5a5 5 0 0 0-1-3 5 5 0 0 0 0-4l-4 2a14 14 0 0 0-6 0L5 2a5 5 0 0 0 0 4 5 5 0 0 0-1 3c0 3 2 4.5 5 5-.5 0-1 1-1 2"/></svg>GitHub <span aria-hidden="true">↗</span></a>
+<a id="openreview-link" hidden>OpenReview <span aria-hidden="true">↗</span></a>
+<a id="scholar-link" hidden>Google Scholar <span aria-hidden="true">↗</span></a>
+</div><p class="profile-topics"><span>Continual Learning</span><span>Agent Memory</span></p>
+</aside>
+<main id="main">
+<section id="about" aria-labelledby="about-title"><p class="eyebrow">Learning · Memory · Intelligence</p><h2 class="intro-title" id="about-title">About Me</h2><div class="intro-text"><p>I am a PhD student at <strong>National University of Defense Technology</strong>, with expected graduation in 2032.</p><p>My research interests lie in <strong>Continual Learning</strong> and <strong>Agent Memory</strong>.</p><p>Previously, I completed my undergraduate studies at the <strong>School of Big Data and Software Engineering, Chongqing University</strong> from 2022 to 2026.</p></div><div class="interests" aria-label="Research interests"><span class="interest">Continual Learning</span><span class="interest">Agent Memory</span></div></section>
+<section id="education" aria-labelledby="education-title"><div class="section-heading"><h2 id="education-title">Education</h2><span class="section-number" aria-hidden="true">01</span></div><ol class="education"><li><div class="edu-meta"><h3>National University of Defense Technology</h3><span class="date">2026–2032 <span class="expected">(expected)</span></span></div><p>PhD studies</p></li><li><div class="edu-meta"><h3>Chongqing University</h3><span class="date">2022–2026</span></div><p>Undergraduate studies</p><p>School of Big Data and Software Engineering</p></li></ol></section>
+<section id="publications" aria-labelledby="publications-title"><div class="section-heading"><h2 id="publications-title">Publications<span class="publication-count" id="publication-count" hidden></span></h2><span class="section-number" aria-hidden="true">02</span></div><div class="publication-toolbar" id="publication-toolbar" role="group" aria-label="Filter publications" hidden><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="selected" aria-pressed="false">Selected</button></div><div id="publication-list" aria-live="polite"></div><div class="empty" id="publication-empty"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7M9 16h5"/></svg><div><h3>Publications will be listed here.</h3><p>Updates will appear as work becomes available.</p></div></div><noscript><p>Enable JavaScript to view the publication list.</p></noscript></section>
+<section id="contact" aria-labelledby="contact-title"><div class="section-heading"><h2 id="contact-title">Contact</h2><span class="section-number" aria-hidden="true">03</span></div><div class="contact-panel"><p>The best way to reach me is by email.</p><a href="mailto:wanghanfeng26@nudt.edu.cn">wanghanfeng26@nudt.edu.cn <span aria-hidden="true">↗</span></a><p class="institution">National University of Defense Technology</p></div></section>
+</main>
+</div><footer><span>© <span id="copyright-year">2026</span> Hanfeng Wang</span><a href="#about">Back to top ↑</a></footer>
+<!--
+维护指南（无需安装软件或运行构建）
+1. GitHub 仓库中打开 index.html，点击铅笔编辑，搜索 PUBLICATION_DATA。
+2. 把下面的示例对象复制到 publications 的 [] 中，替换为真实信息；多篇论文用逗号分隔。
+3. 提交更改后，GitHub Pages 会更新。不要把示例作为真实论文发布。
+4. year 必须是数字，selected 使用 true / false。字符串必须使用英文双引号。
+5. image、paper、code、project、bibtex 没有内容时保留空字符串；无需图片也能正常排版。
+6. 将图片上传到 assets/，填写 image: "assets/论文图片.png"。profileImage 可填写头像路径。
+7. 有 OpenReview / Google Scholar 个人主页后，填写对应网址，侧边栏会自动出现链接。
+8. 内容使用 JSON 格式；文本中的双引号需写成 \"，BibTeX 换行写成 \n。
+
+论文记录示例（仅用于演示填写格式，不会显示在网页中）：
+{
+  "title": "Your paper title",
+  "authors": ["Hanfeng Wang", "Coauthor Name"],
+  "year": 2027,
+  "venue": "Conference or journal name",
+  "selected": true,
+  "image": "",
+  "imageAlt": "Overview of the paper",
+  "paper": "",
+  "code": "",
+  "project": "",
+  "bibtex": ""
+}
+可用 Hanfeng Wang* 标注共同一作；本人姓名会自动加粗。
+-->
+<script id="PUBLICATION_DATA" type="application/json">
+{
+  "profileImage": "",
+  "openreview": "",
+  "scholar": "",
+  "publications": []
+}
+</script>
+<script>
+'use strict';
+(function () {
+  const data = JSON.parse(document.getElementById('PUBLICATION_DATA').textContent);
+  const list = document.getElementById('publication-list');
+  const empty = document.getElementById('publication-empty');
+  const count = document.getElementById('publication-count');
+  const toolbar = document.getElementById('publication-toolbar');
+  const element = (tag, className, text) => { const node = document.createElement(tag); if (className) node.className = className; if (text !== undefined) node.textContent = text; return node; };
+  function safeURL(value, image) {
+    if (typeof value !== 'string' || !value.trim()) return null;
+    try { const url = new URL(value, document.baseURI); if (['https:', 'http:'].includes(url.protocol) || (image && url.protocol === 'file:')) return url.href; } catch (_) {}
+    return null;
+  }
+  for (const [key, id] of [['openreview', 'openreview-link'], ['scholar', 'scholar-link']]) { const url = safeURL(data[key]); if (url) { const link = document.getElementById(id); link.href = url; link.hidden = false; } }
+  const photo = safeURL(data.profileImage, true);
+  if (photo) { const img = element('img'); img.src = photo; img.alt = 'Hanfeng Wang'; img.addEventListener('load', () => { const avatar = document.getElementById('avatar'); avatar.removeAttribute('aria-hidden'); avatar.replaceChildren(img); }); }
+  const papers = (Array.isArray(data.publications) ? data.publications : []).filter(p => p && typeof p.title === 'string' && p.title.trim() && Number.isInteger(p.year)).sort((a, b) => b.year - a.year);
+  const hasSelection = papers.some(p => p.selected === true);
+  toolbar.hidden = !hasSelection;
+  count.hidden = papers.length === 0;
+  function render(filter) {
+    list.replaceChildren();
+    const visible = papers.filter(p => filter === 'all' || p.selected === true);
+    count.textContent = String(visible.length);
+    count.setAttribute('aria-label', visible.length + ' publications');
+    empty.hidden = visible.length > 0;
+    let year;
+    for (const p of visible) {
+      if (p.year !== year) { year = p.year; list.append(element('h3', 'year-heading', String(year))); }
+      const article = element('article', 'paper');
+      const grid = element('div', 'paper-grid no-image');
+      const imageURL = safeURL(p.image, true);
+      if (imageURL) { const img = element('img', 'paper-image'); img.src = imageURL; img.alt = p.imageAlt || p.title; img.loading = 'lazy'; img.addEventListener('error', () => { img.remove(); grid.classList.add('no-image'); }); grid.classList.remove('no-image'); grid.append(img); }
+      const content = element('div');
+      const heading = element('h3');
+      const paperURL = safeURL(p.paper);
+      if (paperURL) { const a = element('a', '', p.title); a.href = paperURL; heading.append(a); } else heading.textContent = p.title;
+      content.append(heading);
+      if (Array.isArray(p.authors) && p.authors.length) { const authors = element('div', 'authors'); p.authors.forEach((author, i) => { if (i) authors.append(document.createTextNode(', ')); const name = String(author); if (name.replace(/[*†‡]/g, '').trim() === 'Hanfeng Wang') authors.append(element('strong', '', name)); else authors.append(document.createTextNode(name)); }); content.append(authors); }
+      if (p.venue) content.append(element('span', 'venue', String(p.venue)));
+      const links = element('div', 'paper-links');
+      for (const [key, label] of [['paper', 'Paper'], ['code', 'Code'], ['project', 'Project']]) { const url = safeURL(p[key]); if (url) { const a = element('a', '', label + ' ↗'); a.href = url; links.append(a); } }
+      if (links.childNodes.length) content.append(links);
+      if (p.bibtex) { const details = element('details', 'bibtex'); details.append(element('summary', '', 'BibTeX')); const pre = element('pre'); pre.append(element('code', '', String(p.bibtex))); details.append(pre); content.append(details); }
+      grid.append(content); article.append(grid); list.append(article);
+    }
+  }
+  toolbar.addEventListener('click', event => { const button = event.target.closest('button[data-filter]'); if (!button) return; toolbar.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b === button))); render(button.dataset.filter); });
+  render('all');
+  document.getElementById('copyright-year').textContent = String(new Date().getFullYear());
+  if ('IntersectionObserver' in window) { const nav = [...document.querySelectorAll('.nav-links a')]; const observer = new IntersectionObserver(entries => { for (const entry of entries) if (entry.isIntersecting) { nav.forEach(a => { if (a.hash === '#' + entry.target.id) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current'); }); } }, { rootMargin: '-15% 0px -65% 0px', threshold: 0 }); document.querySelectorAll('main section').forEach(section => observer.observe(section)); }
+})();
+</script>
+</body>
+</html>
